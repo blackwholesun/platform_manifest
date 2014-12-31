@@ -499,5 +499,5 @@
   <project path="device/samsung/klte-common" name="CyanogenMod/android_device_samsung_klte-common" remote="cm" />
   <project path="device/samsung/msm8974-common" name="CyanogenMod/android_device_samsung_msm8974-common" remote="cm" />
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="cm" />
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="cm" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="cm" revision="cm-11.0" />
 </manifest>
