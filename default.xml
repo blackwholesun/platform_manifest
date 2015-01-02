@@ -34,7 +34,7 @@
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="Evervolv/android_development" />
+  <project path="development" name="Evervolv/android_development" remote="cm" revision="kitkat" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
   <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
@@ -309,7 +309,7 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
-  <project path="frameworks/ex" name="Evervolv/android_frameworks_ex" groups="pdk" remote="cm" revision="kitkat" />
+ <!-- <project path="frameworks/ex" name="Evervolv/android_frameworks_ex" groups="pdk" remote="cm" revision="kitkat" /> -->
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
   <project path="frameworks/native" name="Evervolv/android_frameworks_native" remote="cm" revision="kitkat" />
