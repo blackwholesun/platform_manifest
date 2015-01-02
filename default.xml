@@ -502,9 +502,9 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/samsung" name="Team-Hydra/android_vendor_samsung" remote="th" revision="cm-11.0" />
   <project path="kernel/samsung/klte" name="CyanogenMod/android_kernel_samsung_klte" remote="cm" revision="cm-11.0" />
-  <project path="device/samsung/klte" name="blackwholesun/android_device_samsung_klte" remote="cm" revision="cm-11.0" />
-  <project path="device/samsung/klte-common" name="blackwholesun/android_device_samsung_klte-common" remote="cm" revision="cm-11.0" />
-  <project path="device/samsung/msm8974-common" name="blackwholesun/android_device_samsung_msm8974-common" remote="cm" revision="cm-11.0" />
-  <project path="device/samsung/qcom-common" name="blackwholesun/android_device_samsung_qcom-common" remote="cm" revision="cm-11.0" />
-  <project path="device/qcom/common" name="blackwholesun/android_device_qcom_common" remote="cm" revision="cm-11.0" />
+  <project path="device/samsung/klte" name="blackwholesun/android_device_samsung_klte" remote="cm" revision="master" />
+  <project path="device/samsung/klte-common" name="blackwholesun/android_device_samsung_klte-common" remote="cm" revision="master" />
+  <project path="device/samsung/msm8974-common" name="blackwholesun/android_device_samsung_msm8974-common" remote="cm" revision="master" />
+  <project path="device/samsung/qcom-common" name="blackwholesun/android_device_samsung_qcom-common" remote="cm" revision="master" />
+  <project path="device/qcom/common" name="blackwholesun/android_device_qcom_common" remote="cm" revision="master" />
 </manifest>
