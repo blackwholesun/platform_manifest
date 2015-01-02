@@ -2,6 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
+           revision="refs/tags/android-4.4.2_r1"
            fetch="https://android.googlesource.com/" />
 
   <remote  name="cm"
@@ -12,9 +13,8 @@
            fetch="git://github.com"
            revision="cm-11.0" />
 
-  <default revision="refs/tags/android-4.4.2_r1"
-           remote="aosp"
-           sync-j="4" />
+  <default remote="aosp"
+           sync-j="8" />
 
   <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
