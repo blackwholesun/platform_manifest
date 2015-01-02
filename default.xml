@@ -5,8 +5,8 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="cm"
-           fetch="https://www.github.com"
-           revision="cm-11.0" />
+           revision="cm-11.0"
+           fetch="https://www.github.com" />
 
   <remote  name="th"
            fetch="git://github.com"
