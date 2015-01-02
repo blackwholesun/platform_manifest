@@ -44,7 +44,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" groups="ev-extra" />
 
   <!--Evervolv (Github) Hosted Projects-->
-  <project path="build" name="Evervolv/android_build" groups="ev-aosp" >
+  <project path="build" name="android_build" groups="ev-aosp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" groups="ev-aosp" />
