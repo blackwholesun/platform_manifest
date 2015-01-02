@@ -486,7 +486,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="Evervolv/android_system_core" groups="pdk" remote="cm" revision="kitkat" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
-  <project path="system/media" name="Evervolv/android_system_media" groups="pdk" remote="cm" revision="kitkat" />
+  <project groups="pdk" name="platform/system/media" path="system/media" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="Evervolv/android_system_vold" groups="pdk" remote="cm" revision="kitkat" />
