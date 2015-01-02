@@ -44,7 +44,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" groups="ev-extra" />
 
   <!--Evervolv (Github) Hosted Projects-->
-  <project path="build" name="android_build" groups="ev-aosp" >
+  <project path="build" name="CyanogenMod/android_build" remote="github" revision="cm-11.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" groups="ev-aosp" />
@@ -78,14 +78,14 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="ev-aosp" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="ev-aosp" />
 
-  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf"  remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf"  remote="github" revision="cm-11.0" />
 
-  <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" groups="caf"  remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" groups="caf"  remote="github" revision="cm-11.0" />
 
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="ev-aosp" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="ev-aosp" />
-  <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="qcom" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" groups="qcom" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="qcom" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" groups="qcom" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="ev-aosp" />
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" groups="ev-aosp" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="ev-aosp" />
