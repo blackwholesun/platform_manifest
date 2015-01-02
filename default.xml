@@ -5,6 +5,7 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="cm"
+           revision="cm-11.0"
            fetch="git://github.com" />
 
   <remote  name="th"
@@ -27,14 +28,14 @@
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="blackwholesun/android_bootable_recovery" remote="cm" revision="master" />
+  <project path="bootable/recovery" name="blackwholesun/android_bootable_recovery" remote="private" revision="master" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="Evervolv/android_development" />
+  <project path="development" name="platform/development" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
   <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
@@ -304,15 +305,15 @@
   <project path="external/zip" name="CyanogenMod/android_external_zip" remote="cm" revision="cm-11.0" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" remote="cm" revision="cm-11.0" />
-  <project path="frameworks/av" name="Evervolv/android_frameworks_av" groups="pdk" remote="cm" revision="kitkat" />
-  <project path="frameworks/base" name="Evervolv/android_frameworks_base" remote="cm" revision="kitkat" />
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" remote="cm" revision="cm-11.0" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
-  <project path="frameworks/ex" name="Evervolv/android_frameworks_ex" groups="pdk" remote="cm" revision="kitkat" />
+  <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="Evervolv/android_frameworks_native" remote="cm" revision="kitkat" />
+  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -324,8 +325,8 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="Evervolv/android_frameworks_opt_telephony" remote="cm" revision="kitkat" />
- <!-- <project path="frameworks/opt/telephony-msim" name="CyanogenMod/android_frameworks_opt_telephony-msim" remote="cm" revision="cm-11.0" /> -->
+  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="cm" revision="cm-11.0" />
+  <project path="frameworks/opt/telephony-msim" name="CyanogenMod/android_frameworks_opt_telephony-msim" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -376,16 +377,16 @@
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts" />
-  <project name="platform/packages/apps/ContactsCommon" path="packages/apps/ContactsCommon" />
+  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Dialer" name="Evervolv/android_packages_apps_Dialer" remote="cm" revision="kitkat" />
+  <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project name="platform/packages/apps/InCallUI" path="packages/apps/InCallUI" />
+  <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
@@ -426,7 +427,7 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="Evervolv/android_packages_services_Telephony" remote="cm" revision="kitkat" />
+  <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" remote="cm" revision="cm-11.0" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -484,12 +485,12 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="Evervolv/android_system_core" groups="pdk" remote="cm" revision="kitkat" />
+  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
-  <project path="system/media" name="Evervolv/android_system_media" groups="pdk" remote="cm" revision="kitkat" />
+  <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="Evervolv/android_system_vold" groups="pdk" remote="cm" revision="kitkat" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
