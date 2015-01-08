@@ -267,7 +267,6 @@
   <project name="platform/external/xmp_toolkit" path="external/xmp_toolkit" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project name="platform/external/zxing" path="external/zxing" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="external/zip" name="CyanogenMod/android_external_zip" remote="cm" revision="cm-11.0" />
-  <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="frameworks/base" name="blackwholesun/android_frameworks_base" remote="cm" revision="cm-11.0" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
