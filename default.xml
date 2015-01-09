@@ -19,7 +19,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build" groups="pdk" remote="cm" revision="cm-11.0" >
+  <project path="build" name="blackwholesun/android_build" groups="pdk" remote="cm" revision="cm-11.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
