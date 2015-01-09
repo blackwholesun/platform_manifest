@@ -6,7 +6,7 @@
 
   <remote  name="cm"
            revision="cm-11.0"
-           fetch="git://github.com" />
+           fetch="https://github.com/" />
 
   <remote  name="th"
            fetch="git://github.com"
